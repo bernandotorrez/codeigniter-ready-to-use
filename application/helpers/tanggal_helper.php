@@ -18,8 +18,11 @@ function tanggal($date){
 	                    
 	   return $str['2'] . " " . $bulan[$str[1]]. " " .$str[0];
 }
-	   function tanggal_lengkap($date){
-	$BulanIndo = array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember");
+
+
+function tanggal_lengkap($date){
+	$BulanIndo = array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", 
+						"Agustus", "September", "Oktober", "November", "Desember");
  
 	$tahun = substr($date, 0, 4);
 	$bulan = substr($date, 5, 2);
