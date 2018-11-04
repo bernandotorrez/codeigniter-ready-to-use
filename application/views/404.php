@@ -24,7 +24,7 @@
 			<div class="buttom">
 				<div class="seach_bar">
 				    <br>
-					<p>Back to <span><a href="<?=base_url('Home');?>">Home</a></span></p>
+					<p>Back to <span><a href="<?=base_url('home');?>">Home</a></span></p>
 					<!-----start-sear-box--------->
 					
 				</div>
